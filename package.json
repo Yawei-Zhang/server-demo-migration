@@ -1,0 +1,16 @@
+{
+  "name": "server-demo-migration",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Yawei-Zhang/server-demo-migration.git",
+  "author": "ywzhang",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "pg": "^7.6.0",
+    "sequelize": "^4.41.0",
+    "sequelize-cli": "^5.2.0"
+  }
+}

@@ -1,0 +1,11 @@
+#!/bin/sh
+# Init data
+
+# Create database
+node_modules/.bin/sequelize db:create
+
+# Create table "users"
+node_modules/.bin/sequelize db:migrate
+
+# Insert data
+node_modules/.bin/sequelize db:seed:all

@@ -1,0 +1,9 @@
+{
+  "development": {
+    "username": "ywzhang",
+    "password": "ywzhang",
+    "database": "sample",
+    "host": "db.local.env.com",
+    "dialect": "postgres"
+  }
+}
